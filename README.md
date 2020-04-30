@@ -3,7 +3,7 @@ Un sencillo script de python usado para unir varias clases y luego eliminar el t
 # Requisitos previos
 - LINUX OMG WHY YOU DONT USE LINUX THAT'S DUM
 - sudo apt-get install ffmpeg
-- sudo pip3 install -r requirements.txt
+- sudo pip3 install -f requirements.txt
 
 # ¿Como utilizar?
 - python3 main.py
