@@ -41,6 +41,8 @@ def downloadFile(url):
         name = YouTube(url).streams.get_by_itag(22).download()
     else:
         name = YouTube(url).streams.first().download()
+    name2 = name.split('/')
+    name = name2[-1]
     newname = name.replace(' ','_')
     os.rename(name,newname)
     newname=newname.split("/")
@@ -70,8 +72,8 @@ if previo=='nuevo':
                     listvideo.append(downloadFile(i))
         elif test=="file":
             listvideo.append(input("ingresa el nombre del archivo: "))
-    checkfps=input("Todos los videos tienen el mismo framerate? (S/N): ")
-    if checkfps=='N':
+    checkfps=input("Todos los videos tienen el mismo framerate? (s/n): ")
+    if checkfps=='n':
         for i in listvideo:
             subprocess.call("ffmpeg -i "+i+" -filter:v fps=fps=25 25_"+i,shell=True)
             subprocess.call("rm "+i,shell=True)
