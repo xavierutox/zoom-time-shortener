@@ -21,7 +21,8 @@ En caso de utilizar una unica clase y que ya cuentes con el .mp4 descargado desd
 # ¿Y ahora qué?
 - El programa procederá a separar el video en fragmentos de 1,000 segundos y los guardará en la carpeta temporal "OUTPUT"
 - Luego, por cada uno de los videos en OUTPUT, ejecutara el script jump.py y guardará el video en "OUT"
-- Finalmente, se uniran cada uno de los fragmentos del video en OUT y se guardará en el directorio principal (donde estan los .py)
+- Posteriormente, se uniran cada uno de los fragmentos del video en OUT y se guardará en el directorio principal (donde estan los .py)
+- Finalmente, se borraran todos los ficheros temporales
 # ¿Cuanto tarda esto?
 - Depende bastante del cpu y dependiendo del uso que le des (si debes varios videos, si tienes un único video procesado o si es necesario convertir todos los videos a una misma tasa de fotogramas).
 - Es recomendable ejecutarlo mientras ves otra clase ya procesada o durante la noche mientras no estas ocupando tu computador.
