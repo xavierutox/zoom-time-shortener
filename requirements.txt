@@ -1,0 +1,6 @@
+Pillow
+audiotsm
+scipy
+numpy
+pytube3
+bs4
