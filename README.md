@@ -1,4 +1,4 @@
-# zoom-time-shorter
+# zoom-time-shortener
 Un sencillo script de python usado para unir varias clases y luego eliminar el tiempo muerto de estas clases (silencios al inicio, durante la clase y al final de esta). Consiguiendo asi, reducir gran parte de tiempo dedicado a ver las clases y permitiendo varias de estas en una unica sesion de estudio
 # Requisitos previos
 - LINUX OMG WHY YOU DONT USE LINUX THAT'S DUM
