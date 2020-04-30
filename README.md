@@ -1,11 +1,11 @@
 # zoom-time-shorter
 Un sencillo script de python usado para unir varias clases y luego eliminar el tiempo muerto de estas clases (silencios al inicio, durante la clase y al final de esta). Consiguiendo asi, reducir gran parte de tiempo dedicado a ver las clases y permitiendo varias de estas en una unica sesion de estudio
 # Requisitos previos
->sudo apt-get install ffmpeg
->pip3 install -r requirements.txt
+> sudo apt-get install ffmpeg
+> pip3 install -r requirements.txt
 # ¿Como utilizar?
 > python3 main.py
-Seguir las instrucciones indicadas en la consola
+> Seguir las instrucciones indicadas en la consola
 # ¿Nuevo o procesado?
 Lo recomendable es utilizar siempre "nuevo" ya que de esta forma podrás seleccionar varios archivos, ademas de descargar directamente las clases publicadas en youtube desde la consola de comandos.
 En caso de utilizar una unica clase y que ya cuentes con el .mp4 descargado desde antes, entonces elige procesado
