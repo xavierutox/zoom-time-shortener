@@ -3,6 +3,7 @@ Un sencillo script de python usado para unir varias clases y luego eliminar el t
 # Requisitos previos
 - sudo apt-get install ffmpeg o http://blog.gregzaal.com/how-to-install-ffmpeg-on-windows/ (en caso de usar windows)
 - sudo pip3 install -f requirements.txt
+- un video.mp4 o el link a un video mayor a 16minutos
 
 # ¿Como utilizar?
 - python3 main.py
