@@ -2,13 +2,13 @@
 Un sencillo script de python usado para unir varias clases y luego eliminar el tiempo muerto de estas clases (silencios al inicio, durante la clase y al final de esta). Consiguiendo asi, reducir gran parte de tiempo dedicado a ver las clases y permitiendo varias de estas en una unica sesion de estudio
 # Requisitos previos
 - windows
- > descargar python desde la windows store
- > instalar ffmpeg en el path https://windowsloop.com/install-ffmpeg-windows-10/
- > python -m pip install --upgrade pip
- > pip install -r requirements.txt
+ > descargar python desde la windows store<br/>
+ > instalar ffmpeg en el path https://windowsloop.com/install-ffmpeg-windows-10/<br/>
+ > python -m pip install --upgrade pip<br/>
+ > pip install -r requirements.txt<br/>
  > python main.py
-- Linux
- > sudo apt-get install ffmpeg
+- Ubuntu
+ > sudo apt-get install ffmpeg<br/>
  > sudo pip3 install -f requirements.txt
  
 - un video.mp4 o el link a un video mayor a 16minutos
