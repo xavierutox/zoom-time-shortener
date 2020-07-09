@@ -11,7 +11,7 @@ Un sencillo script de python usado para unir varias clases y luego eliminar el t
  > sudo apt-get install ffmpeg<br/>
  > sudo pip3 install -r requirements.txt
  
-- un video.mp4 o el link a un video mayor a 16minutos
+- un video.mp4 o el link a un video mayor a 1 minuto
 
 # ¿Como utilizar?
 - python3 main.py
