@@ -91,7 +91,7 @@ if previo=='nuevo':
 else:
     videoFile=input("ingresa el nombre del archivo: ")
 try:
-    subprocess.call("python3 splitter.py -f "+videoFile+" -s 300 -v h264",shell=True)
+    subprocess.call("python3 splitter.py -f "+videoFile+" -s 3600",shell=True)
 
     f = sorted(glob.glob("output/*.mp4"))
     for i in f:

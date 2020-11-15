@@ -24,12 +24,13 @@ En caso de utilizar una unica clase y que ya cuentes con el .mp4 descargado desd
  - Busca y descarga los videos en caso de seleccionar la opción
    "youtube", de lo contrario te pedirá los videos que ya se encuentren
    en la carpeta y desees procesar
-  - Una vez realizado esto te preguntara si los videos tienen el mismo framerate, en caso de no serlo o de no saberlo escribe "N" y el programa convertirá todos los videos a 25fps (la velocidad de fps de un video grabado desde zoom)
+  - Una vez realizado esto te preguntara si los videos tienen el mismo framerate, en caso de no serlo o de no saberlo escribe "N" y el programa convertirá todos los videos a 25fps (la velocidad de fps de un video grabado desde zoom.
+  - Si almenos un video no esta a 25, deberas marcar "no",
   - Una vez realizado lo anterior unirá los videos en un unico video ya procesado.
   # ¿ Como funciona 'procesado'?
 - Procesado asume que el proceso anterior ya se realizo o que estas trabajando con un video grabado desde zoom (25fps)
 # ¿Y ahora qué?
-- El programa procederá a separar el video en fragmentos de 1,000 segundos y los guardará en la carpeta temporal "OUTPUT"
+- El programa procederá a separar el video en fragmentos de 1 hora y los guardará en la carpeta temporal "OUTPUT"
 - Luego, por cada uno de los videos en OUTPUT, ejecutara el script jump.py y guardará el video en "OUT"
 - Posteriormente, se uniran cada uno de los fragmentos del video en OUT y se guardará en el directorio principal (donde estan los .py)
 - Finalmente, se borraran todos los ficheros temporales (solo en ubuntu)
