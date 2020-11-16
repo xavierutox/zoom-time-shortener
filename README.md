@@ -6,11 +6,11 @@ Un sencillo script de python usado para unir varias clases y luego eliminar el t
  > instalar ffmpeg en el path https://windowsloop.com/install-ffmpeg-windows-10/<br/>
  > python -m pip install --upgrade pip<br/>
  > pip install -r requirements.txt<br/>
- > pip install git+https://github.com/nficano/pytube
+ > pip install git+https://github.com/nficano/pytube<br/>
  > python main.py
 - Ubuntu
  > sudo apt-get install ffmpeg<br/>
- > sudo pip3 install -r requirements.txt
+ > sudo pip3 install -r requirements.txt<br/>
  > sudo pip3 install git+https://github.com/nficano/pytube
  
 - un video.mp4 o el link a un video mayor a 5 minutos
