@@ -13,7 +13,7 @@ Un sencillo script de python usado para unir varias clases y luego eliminar el t
  > sudo pip3 install -r requirements.txt<br/>
  > sudo pip3 install git+https://github.com/nficano/pytube
  
-- un video.mp4 o el link a un video mayor a 5 minutos
+- un video.mp4 o el link a un video mayor a 60 minutos
 
 # ¿Como utilizar?
 - python3 main.py
